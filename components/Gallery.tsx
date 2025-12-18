@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { GALLERY_IMAGES } from '../constants';
-import { ImageData } from '../types';
+import { GALLERY_IMAGES } from '../constants.tsx';
+import { ImageData } from '../types.ts';
 
 export const Gallery: React.FC = () => {
   const [filter, setFilter] = useState<ImageData['category'] | 'all'>('all');

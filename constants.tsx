@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ImageData, Benefit, Step } from './types';
+import { ImageData, Benefit, Step } from './types.ts';
 
 export const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5584987929026&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+com+Dra.+Rebeca+Vilela+%EF%BF%BD&type=phone_number&app_absent=0";
 export const INSTAGRAM_URL = "https://www.instagram.com/dra.rebecavilela/";
@@ -42,7 +42,7 @@ export const GALLERY_IMAGES: ImageData[] = [
 
 export const BENEFITS: Benefit[] = [
   {
-    title: "Avaliação Honestidade",
+    title: "Avaliação Honesta",
     description: "Sem tratamentos desnecessários. Foco total no que você realmente precisa.",
     icon: "sparkles"
   },

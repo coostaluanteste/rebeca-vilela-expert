@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { WhatsAppButton } from './components/WhatsAppButton';
-import { Gallery } from './components/Gallery';
-import { BENEFITS, STEPS, INSTAGRAM_URL } from './constants';
+import { WhatsAppButton } from './components/WhatsAppButton.tsx';
+import { Gallery } from './components/Gallery.tsx';
+import { BENEFITS, STEPS, INSTAGRAM_URL } from './constants.tsx';
 
 const App: React.FC = () => {
   return (
@@ -86,7 +86,6 @@ const App: React.FC = () => {
             {BENEFITS.map((benefit, idx) => (
               <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex gap-5 items-start">
                 <div className="bg-amber-50 p-3 rounded-lg text-premium-gold">
-                   {/* Fallback Icon logic simplified for React */}
                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                    </svg>
